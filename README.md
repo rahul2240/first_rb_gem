@@ -2,7 +2,10 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/first_rb_gem`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+Tutorial: https://www.youtube.com/watch?v=wYc9HYUAoCQ
+
+## Note: 
+while using irb, use: require './lib/first_rb_gem' to get rid of undefined method errors.
 
 ## Installation
 
