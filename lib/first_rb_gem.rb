@@ -1,11 +1,11 @@
 require "first_rb_gem/version"
 
 module FirstRbGem
-  def showname(name)
-  	puts "hello #{name}, Welcome to my first ruby gem"
+  def first_rb_gem(chars, filler = ' ')
+  	self.rjust(chars, filler)
   end
 end
 
-class Hello
+class String
 	include FirstRbGem
 end
